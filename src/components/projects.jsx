@@ -7,19 +7,19 @@ const Projects = () => {
 
     {
       title: 'E-Mart',
-      imageUrl: '/assets/images/emart-cover.png',
+      imageUrl: './assets/images/emart-cover.png',
       githubLink: 'https://github.com/praveen040-gif/E-Mart',
       liveLink: 'https://yourwebsite.com/emart',
     },
     {
       title: 'DSA Problems',
-      imageUrl: '/assets/images/dsa.png',
+      imageUrl: './assets/images/blood.png',
       githubLink: 'https://github.com/praveen040-gif/DSA',
       liveLink: 'https://github.com/praveen040-gif/DSA',
     },
     {
       title: 'Online Blood Bank Management System',
-      imageUrl: '/assets/images/blood.png', // Replace with actual image paths
+      imageUrl: './assets/images/blood.png', // Replace with actual image paths
       githubLink: 'https://github.com/yourgithub/blood-bank-management',
       liveLink: 'https://yourwebsite.com/blood-bank',
     },
