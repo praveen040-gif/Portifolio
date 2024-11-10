@@ -10,7 +10,7 @@ const Home = () => {
         <a href="https://github.com/praveen040-gif" className="btn github-btn" target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
-        <a href="/assets/Gangisetty_Durga_Praveen (15).pdf" download className="btn resume-btn">
+        <a href="/assets/Gangisetty_Durga_Praveen_.pdf" download className="btn resume-btn">
           Download Resume
         </a>
       </div>
