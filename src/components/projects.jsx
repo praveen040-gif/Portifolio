@@ -6,10 +6,10 @@ const Projects = () => {
   const projectData = [
 
     {
-      title: 'E-Mart',
-      imageUrl: './assets/images/emart-cover.png',
-      githubLink: 'https://github.com/praveen040-gif/E-Mart',
-      liveLink: 'https://github.com/praveen040-gif/E-Mart',
+      title: 'TIC-TAC-TOE',
+      imageUrl: './assets/images/tic.jpg',
+      githubLink: 'https://github.com/praveen040-gif/Tic-Tac-Toe',
+      liveLink: 'https://praveen040-gif.github.io/Tic-Tac-Toe/',
     },
     {
       title: 'DSA Problems',
@@ -18,10 +18,10 @@ const Projects = () => {
       liveLink: 'https://github.com/praveen040-gif/DSA',
     },
     {
-      title: 'Online Blood Bank Management System',
-      imageUrl: './assets/images/blood.png', // Replace with actual image paths
-      githubLink: 'https://github.com/praveen040-gif',
-      liveLink: 'https://github.com/praveen040-gif',
+      title: 'E-Mart',
+      imageUrl: './assets/images/emart-cover.png', // Replace with actual image paths
+      githubLink: 'https://github.com/praveen040-gif/E-Mart',
+      liveLink: 'https://github.com/praveen040-gif/E-Mart',
     },
 
 
@@ -35,7 +35,7 @@ const Projects = () => {
           <div className="project-card" key={index}>
               <img src={project.imageUrl} alt={project.title} className="project-image"/>
               <h2 className="project-title">{project.title}</h2>
-            <div className="project-card-hover">
+            
               <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="icon-link">
                 <FaGithub className="project-icon" />
               </a>
@@ -43,7 +43,7 @@ const Projects = () => {
                 <FaExternalLinkAlt className="project-icon" />
               </a>
             </div>
-          </div>
+          
         ))}
       </div>
     </div>

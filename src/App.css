@@ -213,13 +213,15 @@ strong {
   }
 }
 /* Basic styles for the skills page */
+
 .skills-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 50px 20px;
   background-color: midnightblue;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  scroll-margin-top: 150px;
 }
 
 .skills-heading {
@@ -284,13 +286,19 @@ strong {
   .skills-heading {
     font-size: 2rem;
   }
+  .skills-container{
+    scroll-margin-top: 20px;
+  }
 }
 /* Basic styles for the projects section */
 .projects-container {
-  padding: 50px;
+  padding: 73px;
   background-color: midnightblue;
   text-align: center;
   min-height: 100vh;
+  /* border: 2px solid white; */
+  scroll-margin-top: 80px;
+  
 }
 
 .projects-heading {
@@ -300,8 +308,12 @@ strong {
 
 .projects-grid {
   display: flex;
-  justify-content: space-around;
-  gap: 30px;
+  /* justify-content: space-between; */
+  gap: 100px;
+  /* align-items: center; */
+  justify-content: center;
+  width: 100%;
+  /* flex-wrap: wrap; */
 }
 
 .project-card {
@@ -350,7 +362,7 @@ strong {
 @media (max-width: 768px) {
 
   .project-card {
-    width: 80%;
+    width: 110%;
     height:400px;
     /* overflow: hidden; */
     border-radius: 10px;
@@ -359,14 +371,21 @@ strong {
     margin-top: 30px;
     background-color: white;
     
+    
+    
   }
   .projects-container
   {
     min-height: 100vh;
+    scroll-margin-top: 0px;
+    
+    
   }
   .projects-grid {
     flex-direction: column;
     align-items: center;
+    /* margin-left: 0px; */
+    justify-content: center;
     gap:0px;
   }
   .project-image
@@ -389,6 +408,7 @@ strong {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* scroll-margin-top: 10px; */
 }
 
 .contact-heading {
@@ -404,7 +424,10 @@ strong {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
+  
+  /* height: 350px; */
+  
 }
 
 .contact-form {
@@ -458,6 +481,7 @@ strong {
 @media (max-width: 768px) {
   .contact-container {
     padding: 10px 15px;
+    scroll-margin-top: 70px;
   }
 
   .contact-form-wrapper {
