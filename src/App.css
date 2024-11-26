@@ -336,7 +336,7 @@ strong {
 .project-image {
   width: 100%;
   height: 50%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .project-title {
